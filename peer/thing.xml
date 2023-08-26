@@ -1,0 +1,18 @@
+<Policy>
+  <Rules>
+    <Rule>
+      <Name>Block Mimikatz</Name>
+      <Conditions>
+        <FilePathCondition Path="C:\tools\Mimikatz\x64\Mimikatz.exe" />
+      </Conditions>
+      <Action>Block</Action>
+    </Rule>
+    <Rule>
+      <Name>Block Process Hacker</Name>
+      <Conditions>
+        <FilePathCondition Path="C:\Program Files\Process Hacker 2\ProcessHacker.exe" />
+      </Conditions>
+      <Action>Block</Action>
+    </Rule>
+  </Rules>
+</Policy>
